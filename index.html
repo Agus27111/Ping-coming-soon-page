@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="top">
+          <img src="./images/logo.svg" alt="ping-logo" />
+          <h1>We are launching <span>soon!</span></h1>
+          <p>Subscribe and get notified</p>
+        </div>
+        <div class="subscribe">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your_email"
+          />
+          <p id="error"></p>
+          <button type="submit" onclick="subscribe()">Notify Me</button>
+        </div>
+        <div class="img-ilustration">
+          <img
+            src="./images/illustration-dashboard.png"
+            alt="illustration-dashboard"
+          />
+        </div>
+        <div class="socialMedia">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p class="notify">
+          Notify Me &copy; Copyright Ping. All rights reserved.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Agus Setiawan</a>.
+      </p>
+    </footer>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50ec364cf7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
